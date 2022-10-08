@@ -1,0 +1,76 @@
+/*header styles*/
+.list {
+	display: inline-block;
+	margin-right: 50px;
+}
+.nav-li {
+	display: inline-block;
+}
+.lists {
+	display: inline-block;
+}
+.header-wraper {
+	display: inline-block;
+	background: lightblue;
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+body {
+	height: 1800px;
+}
+.lorem {
+	margin-top: 46px;
+}
+/*chat image*/
+.chatimage {
+	height: 100px;
+}
+.chaticon {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+}
+/*position abolute  &  relation*/
+.block-wraper {
+	width: 500px;
+	height: 500px;
+	background-color: blue;
+	position: relative;
+}
+.block-child {
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.block-child2 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.image1 {
+	width: 300px;
+}
+
+/*image example*/
+.hello-image {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	color: white;
+	font-size: 20px;
+}
+.image-wraper {
+	position: relative;
+	width: 252.5px;
+	display: inline-block;
+}
